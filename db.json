@@ -2,24 +2,56 @@
   "auth": {
     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
   },
-  "user": [
+"users": [
     {
       "id": 1,
-      "nombre": "Nobita Nobi"
+      "firstName": "Admin",
+      "lastName": "Admin",
+      "email": "admin@email.com",
+      "phone": "0000000000",
+      "document": {
+        "type": "IDENTITY_CARD",
+        "value": "001"
+      },
+      "status": "ACTIVE",
+      "roles": [
+        "Gerente de Mantenimiento"
+      ]
     },
     {
       "id": 2,
-      "nombre": "Shizuka Minamoto"
+      "firstName": "Tecnico",
+      "lastName": "Tecnico",
+      "email": "tecnico@email.com",
+      "phone": "0000000000",
+      "document": {
+        "type": "IDENTITY_CARD",
+        "value": "002"
+      },
+      "status": "ACTIVE",
+      "roles": [
+        "Técnico de Mantenimiento"
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Usuario",
+      "lastName": "Usuario",
+      "email": "usuario@email.com",
+      "phone": "0000000000",
+      "document": {
+        "type": "IDENTITY_CARD",
+        "value": "003"
+      },
+      "status": "ACTIVE",
+      "roles": [
+        "Usuarios"
+      ]
     }
   ],
-  "cliente": [
-    {
-      "id": 1,
-      "nombre": "Cliente 1"
-    },
-    {
-      "id": 2,
-      "nombre": "Cliente 2"
-    }
-  ]
+  "companies": [],
+  "branches": [],
+  "assets": [],
+  "work-orders": [],
+  "reports": []
 }
